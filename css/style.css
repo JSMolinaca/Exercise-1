@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282828;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    background-image: url(../img/fondo-flex.jpg);
+    background-size: cover;
+    position: relative;
+    border: 2px solid yellow;
+}
+
+.pajaros {
+    width: 130px;
+    position: absolute;
+}
+
+.pajaro1 {
+    bottom: 20px;
+    left: 440px;
+}
+
+.pajaro2 {
+    bottom: 130px;
+    left: 870px;
+}
+
+.pajaro3 {
+    top: 230px;
+    left: 700px;
+}
+
+.pajaro4 {
+    top: 360px;
+    left: 30px;
+}
+
+.pajaro5 {
+    bottom: 262px;
+    left: 245px;
+}
